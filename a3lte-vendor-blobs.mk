@@ -85,7 +85,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/a3lte/proprietary/lib/libmmcamera2_stats_algorithm.so:system/lib/libmmcamera2_stats_algorithm.so \
 	vendor/samsung/a3lte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
 	vendor/samsung/a3lte/proprietary/vendor/lib/libchromatix_s5k4h5yb_preview.so:system/vendor/lib/libchromatix_s5k4h5yb_preview.so \
-	vendor/samsung/a3lte/proprietary/vendor/lib/libactuator_dw9804_e5_camcorder.so:system/vendor/lib/libactuator_dw9804_e5_camcorder.so \
+	vendor/samsung/a3lte/proprietary/vendor/lib/libactuator_dw9804_kleos_camcorder.so:system/vendor/lib/libactuator_dw9804_kleos_camcorder.so \
 	vendor/samsung/a3lte/proprietary/vendor/lib/libmmcamera2_vpe_module.so:system/vendor/lib/libmmcamera2_vpe_module.so \
 	vendor/samsung/a3lte/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_pip.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_pip.so \
 	vendor/samsung/a3lte/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
@@ -100,7 +100,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/a3lte/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
 	vendor/samsung/a3lte/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_vt_hd.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_vt_hd.so \
 	vendor/samsung/a3lte/proprietary/vendor/lib/libmmQSM.so:system/vendor/lib/libmmQSM.so \
-	vendor/samsung/a3lte/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
 	vendor/samsung/a3lte/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_zslshot.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_zslshot.so \
 	vendor/samsung/a3lte/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_preview.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_preview.so \
 	vendor/samsung/a3lte/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
@@ -120,12 +119,9 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/a3lte/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
 	vendor/samsung/a3lte/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
 	vendor/samsung/a3lte/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
-	vendor/samsung/a3lte/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
 	vendor/samsung/a3lte/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
-	vendor/samsung/a3lte/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
 	vendor/samsung/a3lte/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
 	vendor/samsung/a3lte/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
-	vendor/samsung/a3lte/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
 	vendor/samsung/a3lte/proprietary/vendor/lib/libmmcamera_sunny_p5v23c_eeprom.so:system/vendor/lib/libmmcamera_sunny_p5v23c_eeprom.so \
 	vendor/samsung/a3lte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
 	vendor/samsung/a3lte/proprietary/vendor/lib/libchromatix_s5k4h5yb_liveshot.so:system/vendor/lib/libchromatix_s5k4h5yb_liveshot.so \
@@ -143,7 +139,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/a3lte/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
 	vendor/samsung/a3lte/proprietary/vendor/lib/libmmparser.so:system/vendor/lib/libmmparser.so \
 	vendor/samsung/a3lte/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
-	vendor/samsung/a3lte/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
 	vendor/samsung/a3lte/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
 	vendor/samsung/a3lte/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
 	vendor/samsung/a3lte/proprietary/vendor/lib/libmmcamera2_is.so:system/vendor/lib/libmmcamera2_is.so \
@@ -157,14 +152,13 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/a3lte/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
 	vendor/samsung/a3lte/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_snapshot.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_snapshot.so \
 	vendor/samsung/a3lte/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
-	vendor/samsung/a3lte/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
 	vendor/samsung/a3lte/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
 	vendor/samsung/a3lte/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
 	vendor/samsung/a3lte/proprietary/vendor/lib/libmmcamera_s5k4h5yb.so:system/vendor/lib/libmmcamera_s5k4h5yb.so \
 	vendor/samsung/a3lte/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
 	vendor/samsung/a3lte/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
 	vendor/samsung/a3lte/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
-	vendor/samsung/a3lte/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+	vendor/samsung/a3lte/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
 	vendor/samsung/a3lte/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:system/vendor/lib/libmmcamera2_pproc_modules.so \
 	vendor/samsung/a3lte/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
 	vendor/samsung/a3lte/proprietary/vendor/lib/libmmcamera_sunny_p12v01m_eeprom.so:system/vendor/lib/libmmcamera_sunny_p12v01m_eeprom.so \
@@ -190,7 +184,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/a3lte/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
 	vendor/samsung/a3lte/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
 	vendor/samsung/a3lte/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
-	vendor/samsung/a3lte/proprietary/vendor/lib/libactuator_dw9804_e5_camera.so:system/vendor/lib/libactuator_dw9804_e5_camera.so \
+	vendor/samsung/a3lte/proprietary/vendor/lib/libactuator_dw9804_kleos_camera.so:system/vendor/lib/libactuator_dw9804_kleos_camera.so \
 	vendor/samsung/a3lte/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
 	vendor/samsung/a3lte/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
 	vendor/samsung/a3lte/proprietary/vendor/lib/libmmcamera_image_stab.so:system/vendor/lib/libmmcamera_image_stab.so \
@@ -200,7 +194,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/a3lte/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
 	vendor/samsung/a3lte/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
 	vendor/samsung/a3lte/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
-	vendor/samsung/a3lte/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+	vendor/samsung/a3lte/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
 	vendor/samsung/a3lte/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
 	vendor/samsung/a3lte/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
 	vendor/samsung/a3lte/proprietary/vendor/lib/libmmcamera_lsi_s5k5e3yx_eeprom.so:system/vendor/lib/libmmcamera_lsi_s5k5e3yx_eeprom.so \
